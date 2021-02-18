@@ -1,0 +1,99 @@
+.wysiwyg ul.list--arrow li:before {
+    content: '\276F';
+    font-size: 17px;
+    }
+    .wysiwyg ul.list--triangle li:before {
+    content: '\2023';
+    font-size: 18px;
+    }
+    .vertical-align--top {
+    vertical-align: top;
+    }
+    .text--grey {
+    color: darkgray;
+    }
+    .two-column-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .b-accordion table {
+    display: table;
+    }
+    .two-column-item {
+    width: 100%;
+    max-width: 515px;
+    margin: 0 auto 30px;
+    }
+    .two-column-item:nth-child(odd) {
+    margin-right:50px;
+    }
+    .two-column-item p:first-child{
+    margin-top: 0;
+    }
+    @media (max-width: 1134px) {
+    .two-column-item {
+    max-width: none;
+    }
+    .two-column-item:nth-child(odd) {
+    margin-right:auto;
+    }
+    }
+    @media (max-width: 796px) {
+    table.responsive-stack td {
+    display: block;
+    }
+    table.responsive-stack td img {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+    }
+    
+    .journal-header__image .open-access__popout {
+        position: absolute;
+        width: 200px;
+        text-align: left;
+        background-color: #f6f6f6c9;
+        padding: 15px;
+        right: -204px !important;
+        z-index: 1;
+        top: 70px;
+        border: 1px solid #cbd6d6;
+        display: none;
+    }
+    
+    }
+    
+    .column-width-medium {
+    max-width: 796px;
+    }
+    .text--medium {
+    font-size: 3.1em;
+    line-height: 1em;
+    }
+    .text--small {
+    font-size: 0.6em;
+    line-height: 1em;
+    }
+    .pullout {
+    background-color: #e1eded;
+    padding: 1px 2em 2em;
+    }
+    .wysiwyg .b-accordion__header {
+    margin:0;
+    }
+    .image-align-right {
+    margin: 1em 0 1em 1em;
+    float: right;
+    }
+    .image-align-left {
+    margin: 1em 1em 1em 0;
+    float: left;
+    }
+    h1 {
+    line-height: 1.3;
+    }
+    .wysiwyg li ul,.wysiwyg li ol {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    }
